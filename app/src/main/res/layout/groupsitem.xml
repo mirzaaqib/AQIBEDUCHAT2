@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:src="@drawable/ic_groups" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/logo_chat"
+        android:layout_toRightOf="@+id/logo"
+        android:text="Team Educhat"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toLeftOf="@+id/logo_chat"
+        android:layout_toRightOf="@+id/logo"
+        android:text="Some text" />
+
+    <ImageView
+        android:id="@+id/logo_chat"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="7dp"
+        android:src="@drawable/ic_chat" />
+
+</RelativeLayout>
